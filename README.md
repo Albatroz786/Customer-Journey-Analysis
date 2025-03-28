@@ -75,6 +75,14 @@ Navigate to the backend folder:
 
 Start the FastAPI server:
 
+Command to start backend: 
+
+```
+ cd backend
+ uvicorn main:app --reload 
+
+```
+
 ✅ The backend will run at: http://127.0.0.1:8000
 
 <h3><b>Backend Endpoints:</b></h3>
@@ -91,6 +99,14 @@ Start the FastAPI server:
 Open a new terminal and navigate to the frontend folder:
 
 Start the Streamlit app:
+
+Command to start front end server:
+
+```
+cd frontend
+streamlit run app.py --server.port 8501 --server.address 0.0.0.0
+
+```
 
 ✅ The frontend will run at: http://localhost:8501
 
